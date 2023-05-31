@@ -21,7 +21,7 @@ function App() {
   // console.log(tareas)
   return (
     <>
-      <p className='title'>Ejercicio ? ToDo list</p>
+      <p className='title'>Ejercicio 3 ToDo list</p>
       <div className="btns">
         <input className='inp' placeholder='Ingresa una actividad' type="text" value={entrada} onChange={buscardorTarea}/>
         <button className='btn btn-add' onClick={crearTarea}>Agregar tarjeta</button>
