@@ -1,14 +1,11 @@
 import { useState } from 'react'
 import './App.css'
-import { useEffect } from 'react'
+// import { useEffect } from 'react'
 
 function App() {
   const [tareas, setTareas] = useState([])
   const [entrada, setEntrada] = useState('')
-  // const buscardorTarea = ({target}) => setEntrada(target.value)
-  const buscardorTarea = ({target}) => {
-    setEntrada(target.value)
-  }
+  const buscardorTarea = ({target}) => setEntrada(target.value)
   const crearTarea = (e) => {
     e.preventDefault();
     setTareas([{id: Date.now(), pendiente: entrada, estado: false}, ...tareas])
@@ -21,7 +18,7 @@ function App() {
     setTareas(arrayModificar)
   }
   const eliminarTarea = () => setTareas(tareas.filter((tareas) => !tareas.estado))
-  console.log(tareas)
+  // console.log(tareas)
   return (
     <>
       <p className='title'>Ejercicio ? ToDo list</p>
