@@ -1,0 +1,80 @@
+.title {
+    font-size: 60px;
+    font-weight: 700;
+    margin: 80px;
+    text-align: center;
+}
+.inp{
+    margin: 0 5px;
+    padding: 3px;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    /* transition: 200ms; */
+    /* width: 20px; */
+}
+/* .inp:hover{
+    border: white;
+    padding: 5px;
+    width: 300px;
+} */
+
+.btns {
+    margin: -40px auto 40px;
+    text-align: center;
+}
+.btn {
+    margin: 0 5px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: white;
+    transition: all 300ms;
+    cursor: pointer;
+}
+.btn-add {
+    background: rgb(255, 255, 255);
+    color: black;
+}
+.btn-delete {
+    background: rgb(255, 255, 255);
+    color: black;
+}
+.btn-add:hover {
+    background: rgb(2, 112, 162);    
+    color: white;
+}
+.btn-delete:hover {
+    background: rgb(200, 43, 22);
+    color: white;
+}
+.subtitle{
+    font-size: 40px;
+}
+.container-card{
+    background-color: rgba(254, 254, 255, 0.593);
+    padding: 25px;
+    border-radius: 5px;
+}
+.card{
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: rgba(255, 0, 0, 0.428);
+}
+.container-jobs{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+.text{
+    padding: 10px 20px;
+    font-size: 30px;
+}
+.completed-tasks{
+    background-color: rgba(0, 255, 0, 0.63);
+}
+.icon{
+    background-color: rgba(255, 255, 255, 0.714);
+    border-radius: 25px;
+    
+}
